@@ -1,0 +1,68 @@
+.developer-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 100%;
+    margin-top: 10px;
+    height: 210px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);    
+}
+
+.developer-container img.developer-photo {
+    width: 190px;
+    border-radius: 90px;
+    display: flex;
+}
+
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 30px;
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+}
+
+aside strong {
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px
+}
+
+aside p {
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 20px;
+}
+
+div.buttons {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: end;
+    align-self: flex-end;
+    height: 100%;
+}
+
+div.buttons button {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 90px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);    
+    cursor: pointer;
+}
+
+div.buttons button:hover img {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
